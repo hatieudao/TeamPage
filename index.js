@@ -1,7 +1,8 @@
-const { urlencoded } = require('express');
+const { urlencoded } = require('express')
 const express = require('express')
+require('dotenv').config()
 const app = express()
-const port = 5050
+const port = process.env.PORT || 5050
 
 app.set("views", "./views")
 app.set('view engine', 'ejs')
