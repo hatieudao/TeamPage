@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://www.netpremacy.com/wp-content/uploads/2018/09/Background-website-01.jpg");
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cfcfcf;
+
+    font-size: 28px;
+}
+
+li{
+    list-style: none;
+}
+li > a{
+    text-decoration: none;
+    text-align: start;
+    line-height: 1.5em;
+    transition: .2s ease-in-out;
+}
+a:hover{
+    text-decoration: underline;
+}
